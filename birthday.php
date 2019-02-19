@@ -28,8 +28,6 @@
       <h4>For bookings and Information, Please fill the details below and submit</h4>
       <form action="bdaybackend.php" method="POST">
         <input type="text" name="name" placeholder="name">
-        <input type="text" name="name"  placeholder="mobile no">
-        <input type="month" name="name" placeholder="DOB">
         <input type="text" name="mobileno"  placeholder="mobile no">
         <input type="text" name="alternateno" placeholder="alternate no">
         <input type="date" name="DOB" placeholder="DOB">
