@@ -26,16 +26,18 @@
    </div>
       <h2>BIRTHDAY PARTY</h2>
       <h4>For bookings and Information, Please fill the details below and submit</h4>
-      <form>
+      <form action="bdaybackend.php" method="POST">
         <input type="text" name="name" placeholder="name">
         <input type="text" name="name"  placeholder="mobile no">
-        <input type="text" name="name" placeholder="alternate no">
         <input type="month" name="name" placeholder="DOB">
-        <input type="month" name="name" placeholder="aniversary date">
-        <input type="text" name="name" placeholder="address">
-        <input type="text" name="name" placeholder="state">
-        <input type="text" name="name" placeholder="City">
-        <input type="text" name="name" placeholder="pin code"> <br>
+        <input type="text" name="mobileno"  placeholder="mobile no">
+        <input type="text" name="alternateno" placeholder="alternate no">
+        <input type="date" name="DOB" placeholder="DOB">
+        <input type="date" name="aniversarydate" placeholder="aniversary date">
+        <input type="text" name="address" placeholder="address">
+        <input type="text" name="state" placeholder="state">
+        <input type="text" name="city" placeholder="City">
+        <input type="text" name="pincode" placeholder="pin code"> <br>
         <input type="submit" name="ok" value="submit">
       </form>
       <h6>We will contact you within 2 working days. Domino's conduct Birthday Parties in select Restaurant and Times. T&C Apply</h6>
