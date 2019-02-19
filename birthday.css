@@ -1,0 +1,127 @@
+*{
+	padding:0;
+	margin:0;
+	font-style:Century Gothic;
+	font-size:20px;
+	font-weight:bold;
+	color:gray;
+}
+header ul 
+{
+	float: right;
+	list-style-type: none;
+	margin-top:50px;
+	margin-right:150px;
+}
+ul li
+{
+	display:inline-block;
+}
+li a 
+{
+	text-decoration: none;
+	color:gray;
+	padding:5px 20px;
+	border:1px solid transparent;
+}
+li a:hover
+{
+	background-color:red;
+	color:yellow;
+}
+.active
+{
+	margin-left:60px;
+}
+ .active>a{
+	background-color: red;
+	color:yellow;
+	border-radius:  5px;
+	padding: 10px 20px;
+}
+header img
+{
+   	position: absolute;
+    height:80px;
+    width:250px;
+    margin-top:20px;
+	margin-left:90px; 
+}
+.banner #photo
+{
+	
+	width: 100%;
+	max-height:600px;
+	margin-top: 25px;
+}
+h2
+{
+	color:red;
+	font-size:25px;
+	margin-top:25px;
+	margin-left:40%;
+}
+ h4
+{
+	margin-left: 30%;
+	color:black;
+
+}
+form{
+	margin-left:15%; 
+	font-family: sans-serif;
+}
+ form input
+ {
+ 	margin:40px;
+
+ }
+ form input[type=submit]
+ {
+ 	padding:7px;
+
+ 	border-color:red;
+ }
+ ::placeholder
+ {
+ 	opacity:0.2;
+ 	color:black;
+ }
+ h6{
+ 	margin-left: 62%;
+ 	color:black;
+ 	font-size:10px;
+ 	
+ }
+
+
+
+
+
+
+footer{
+
+	height: 5vh;
+	width: 100%;
+	background-color: #2F363F;
+	margin-top: 20px;
+}
+
+footer p{
+	position:absolute;
+	color: #fff;
+	left:50%;
+	font-weight: 600;
+	font-size: 15px;
+}
+footer #social
+{
+	position:absolute;
+}
+footer #social .fab
+{	
+	float:right;
+	font-size:20px;
+	padding:5px;
+	color:white;
+}

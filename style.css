@@ -1,0 +1,228 @@
+*{
+	padding:0;
+	margin:0;
+	font-style:Century Gothic;
+	font-size:20px;
+	font-weight:bold;
+	color:gray;
+}
+header ul 
+{
+	float: right;
+	list-style-type: none;
+	margin-top:50px;
+	margin-right:150px;
+}
+ul li
+{
+	display:inline-block;
+}
+li a 
+{
+	text-decoration: none;
+	color:gray;
+	padding:5px 20px;
+	border:1px solid transparent;
+}
+li a:hover
+{
+	background-color:red;
+	color:yellow;
+}
+.active
+{
+	margin-left:60px;
+}
+ .active>a{
+	background-color: red;
+	color:yellow;
+	border-radius:  5px;
+	padding: 10px 20px;
+}
+header img
+{
+   	position: absolute;
+    height:80px;
+    width:250px;
+    margin-top:20px;
+	margin-left:90px; 
+}
+.banner #photo
+{
+	
+	width: 100%;
+	max-height: 400px;
+	margin-top: 25px;
+}
+#t1
+{
+	position: absolute;
+	right:9%;
+	color:white;
+	font-size:40px;
+	font-style:italic;
+	margin-top: 9%; 
+}
+ #order a 
+{
+	position: absolute;
+	right:14%;
+	font-size:20px;
+	font-style:italic;
+	margin-top: 14%; 
+	border:1px solid transparent;
+	background-color: red;
+	color:yellow;
+	border-radius:5px;
+	padding: 10px 35px;
+	text-decoration: none;
+}
+.coupan
+{
+	margin-top:20px;
+	margin-left:90px; 
+}
+.coupan h1
+{
+	font-size:35px;
+	font-style:italic;
+}
+.ism-slider
+{
+	margin-top:20px;
+	margin-left:25%;
+	height: auto;
+
+}
+.explore
+{
+	margin-top:20px;
+	margin-left:90px; 
+}
+.explore h1
+{
+	font-size:35px;
+	font-style:italic;	
+}
+.container
+{
+	position: relative;
+	width:1200px;
+	height:300px;
+	margin:20px auto;
+	
+}
+.container .box1
+{
+	position:relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background:red;
+	float:left;
+	margin:15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.container .box1 .icon
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:	yellow;
+	transition: 0.5s;
+	z-index:1;
+}
+.container .box1:hover .icon
+{
+	top:20px;
+	left:calc(50% - 40px);
+	width:80px;
+	height:80px;
+	border-radius: 50%; 
+}
+.container .box1 .icon .fas
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	font-size:80px;
+	transition:0.5s;
+	color:gray;
+}
+.container .box1:hover .icon .fas
+{
+	font-size:40px;
+}
+.container .box1 .content
+{
+	position: relative;
+	top:100%;
+	height:calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing:border-box;
+	transition:0.5s;
+}
+.container .box1:hover .content
+{
+	top:100px;
+}
+.container .box1 .content h1
+{
+	margin:0 0 10px;
+	padding:0;
+	color:white; 
+	font-size:24px;
+}
+.container .box1 .content p
+{
+	margin:0;
+	padding:0;
+	color:white;
+}
+footer{
+	height: 5vh;
+	width: 100%;
+	background-color: #2F363F;
+}
+
+footer p{
+	position:absolute;
+	color: #fff;
+	left:50%;
+	font-weight: 600;
+	font-size: 15px;
+}
+footer #social
+{
+	position:absolute;
+}
+footer #social .fab
+{	
+	float:right;
+	font-size:20px;
+	padding:5px;
+	color:white;
+}
+#facebook : hover
+{
+	color:blue;
+}
+#google: hover
+{
+	color:red;
+}
+#twitter:hover
+{
+	color:blue;
+}
+#instagram:hover
+{
+
+}
+
+

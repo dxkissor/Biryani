@@ -1,0 +1,153 @@
+body
+    {
+      padding:0;
+      margin:0;
+      font-style:Century Gothic;
+      font-size:20px;
+      font-weight:bold;
+      color:gray;
+    }
+    header ul 
+{
+  float: right;
+  list-style-type: none;
+  margin-top:50px;
+  margin-right:150px;
+}
+ul li
+{
+  display:inline-block;
+}
+li a 
+{
+  text-decoration: none;
+  color:gray;
+  padding:5px 20px;
+  border:1px solid transparent;
+}
+li a:hover
+{
+  background-color:red;
+  color:yellow;
+}
+.active
+{
+  margin-left:60px;
+}
+ .active>a{
+  background-color: red;
+  color:yellow;
+  border-radius:  5px;
+  padding: 10px 20px;
+}
+header img
+{
+    position: absolute;
+    height:80px;
+    width:250px;
+    margin-top:20px;
+  margin-left:90px; 
+}
+.banner #photo
+{
+  
+  width: 100%;
+  max-height: 400px;
+  margin-top: 25px;
+}
+#heading
+{
+  margin-left:40%;
+}
+.container
+{
+  position: relative;
+  width:1400px;
+  height:400px;
+  margin:30px auto;
+  margin-right:22px;
+}
+.container .box1
+{
+  position:relative;
+  width: calc(350px - 30px);
+  height: calc(400px - 30px);
+  background:red;
+  float:left;
+  margin:2px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.box1 h1
+{
+  font-size:30px;
+  color:white;
+  margin-left: 70px;
+}
+#chicken
+{
+  margin-left:75px;
+  width:150px;
+  height:130px;
+}
+.box1 input
+{
+  margin-top:30px;
+  margin-left:100px; 
+  padding:17px 20px;
+  border-radius: 5px;
+  border-color:white;
+  background:transparent;
+  font-family:bold;
+  color:white;
+  font-size:20px;
+}
+#moutton
+{
+  margin-left:75px;
+  width:150px;
+  height:130px;
+}
+h2
+{
+  font-size:30px;
+  color:white;
+  margin-left: 50px;
+}
+#state
+{
+  margin-left:75px;
+  width:150px;
+  height:130px;
+}
+#others
+{
+  margin-left:75px;
+  width:150px;
+  height:130px;
+}
+footer{
+  height: 5vh;
+  width: 100%;
+  background-color: #2F363F;
+}
+
+footer p{
+  position:absolute;
+  color: #fff;
+  left:50%;
+  font-weight: 600;
+  font-size: 15px;
+}
+footer #social
+{
+  position:absolute;
+}
+footer #social .fab
+{ 
+  float:right;
+  font-size:20px;
+  padding:5px;
+  color:white;
+}

@@ -1,0 +1,50 @@
+*{
+	padding:0;
+	margin:0;
+	font-style:italic;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+}
+#logo
+{
+	position: absolute;
+    height:80px;
+    width:250px;
+    margin-top:20px;
+	margin-left:90px; 
+}
+body
+{
+	background-image: url("front.jpg");
+	width:100%;
+	height:100vh;
+	background-size:cover;
+	background-position: center;
+}
+h1
+{
+	color:red;
+	font-size:40px;
+}
+.login
+{
+	width:20%;
+	background-color:#0009;
+ 	position:relative;
+ 	left:35%;
+ 	top:250px;
+ 	color:white;
+ 	border-radius: 24px;
+ 	padding: 30px 20px;
+}
+form input
+{
+	background-color:#0009;
+	margin:10px;
+	font-family: sans-serif;
+}
+form h1
+{
+	margin-left:20%;
+}
