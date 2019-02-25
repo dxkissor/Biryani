@@ -18,6 +18,7 @@
 					 <input type="radio" name="gender" value="F"> female<br>
 			email:   <input type="text" name="email"><br>
 			phoneno: <input type="phone" name="phoneno"><br>
+			Address: <input  id="address" type="text" name="address">
 	<input type="Submit" name="submit" value="signup"><br>
 	</form>
 	</div>

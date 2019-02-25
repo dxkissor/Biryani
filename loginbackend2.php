@@ -10,6 +10,8 @@ $con=mysqli_connect('localhost','biryani','biryani');
    if($n==1)
    {
    	header('location:http://localhost/Biryani/home.php');
+      session_start();
+      $_SESSION['username'] = $u;
    }
    else
    {

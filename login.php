@@ -2,7 +2,7 @@
  <html>
  <head>
  	<title>Biryaniwale</title>
- 	<link rel="stylesheet" type="text/css" href="signup.css">
+ 	<link rel="stylesheet" type="text/css" href="login.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
   <link rel="shortcut icon" type="image/x-icon" href="logo.png">
  </head>

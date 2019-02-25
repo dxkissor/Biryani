@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+payment.php<!DOCTYPE html>
  <html>
  <head>
  	<title>Biryaniwale</title>
@@ -29,22 +29,22 @@
           <div class="box1">
                   <h1>KOLKATA BIRYANI</h1>
                   <img  id="chicken" src="chicken.jpg" alt="chicken"><br>
-                  <a href="chicken.html"><input type="button" name="View" value="Order Now" >
+                <form action="payment.php"><input type="submit" name="itemID" value="s1"></form>
           </div>
           <div class="box1">
                   <h1>HYDRABADI BIRYANI</h1>
                   <img  id="moutton" src="moutton.jpg" alt="moutton"><br>
-                  <a href="moutton.html"><input type="button" name="View" value="Order Now" >
+                  <form action="payment.php"><input type="submit" name="itemID" value="s2"></form>
           </div>
           <div class="box1">
                   <h2>LAKHNAWI BIRYANI</h2>
                   <img  id="state" src="state.jpeg" alt="state"><br>
-                  <a href="#"><input type="button" name="View" value="Order Now" >
+                  <form action="payment.php"><input type="submit" name="itemID" value="s3"></form>
           </div>
           <div class="box1">
                   <h1>BOMBAY BIRYANI</h1>
                   <img  id="others" src="others.jpg" alt="others"><br>
-                  <a href="#"><input type="button" name="View" value="Order Now" >
+                 <form action="payment.php"><input type="submit" name="itemID" value="s4"></form>
           </div>
       </div>
    </div>

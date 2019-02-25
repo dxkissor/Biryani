@@ -12,7 +12,7 @@
         $conn = mysqli_connect('localhost','biryani','biryani');
         mysqli_select_db($conn,'biryani');
     
-        $qu="";
+        $qu="select * from orders";
         $result = mysqli_query($conn,$qu);
         $num = mysqli_num_rows($result);     
     ?>
@@ -35,7 +35,7 @@
                 <tr>
                     <th>Order no</th> 
                     <th>order name</th>  
-                    <th>user details</th> 
+                    <th>address</th> 
                 </tr>
                 <?php 
                 for($i=0;$i<$num;$i++)
@@ -43,9 +43,9 @@
                      $row = mysqli_fetch_array($result);
                 ?>
                 <tr>
-                   <td><?php echo $row['Order_number']; ?></td>
-                   <td><?php echo $row['Order_name']; ?></td>
-                   <td><?php echo $row['user details']; ?></td>
+                   <td><?php echo $row['order_id']; ?></td>
+                   <td><?php echo $row['order_name']; ?></td>
+                   <td><?php echo $row['order_address']; ?></td>
                 </tr>
         <?php
         	}

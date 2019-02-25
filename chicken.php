@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
  <html>
  <head>
@@ -28,23 +30,23 @@
      <div class="container">
           <div class="box1">
                   <h1>CHICKEN TIKKA</h1>
-                  <img  id="chicken" src="chicken.jpg" alt="chicken"><br>
-                  <a href="chicken.html"><input type="button" name="View" value="Order Now" >
+                <img  id="chicken" src="chicken.jpg" alt="chicken"><br>
+                <form action="payment.php"><input type="submit" name="itemID" value="c1"></form>
           </div>
           <div class="box1">
                   <h1>CHICKEN KABBAB</h1>
                   <img  id="moutton" src="moutton.jpg" alt="moutton"><br>
-                  <a href="#"><input type="button" name="View" value="Order Now" >
+                  <form action="payment.php"><input type="submit" name="itemID" value="c2"></form>
           </div>
           <div class="box1">
                   <h2>CHICKEN BIRYANI</h2>
                   <img  id="state" src="state.jpeg" alt="state"><br>
-                  <a href="#"><input type="button" name="View" value="Order Now" >
+                  <form action="payment.php"><input type="submit" name="itemID" value="c3"></form>
           </div>
           <div class="box1">
                   <h1>CHICKEN HAKKA</h1>
                   <img  id="others" src="others.jpg" alt="others"><br>
-                  <a href="#"><input type="button" name="View" value="Order Now" >
+                  <form action="payment.php"><input type="submit" name="itemID" value="c4"></form>
           </div>
       </div>
    </div>
