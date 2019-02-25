@@ -27,7 +27,7 @@
   	</header>
   	<div class="banner">
   		<h1 id="t1">Biryaniwale are waiting for you.</h1>
-  		<h1 id="order"><a href="#">Order Now</a></h1>
+  		<h1 id="order"><a href="Menu.php">Order Now</a></h1>
   		<img  id="photo" src="biryani.jpg" alt="biryani">
  	 </div>
 <div class="coupan">

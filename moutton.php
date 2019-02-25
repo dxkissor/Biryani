@@ -32,17 +32,17 @@
                   <a href="chicken.html"><input type="button" name="View" value="Order Now" >
           </div>
           <div class="box1">
-                  <h1>MOUTTON TIKKA</h1>
+                  <h1>MOUTTON BIRYANI</h1>
                   <img  id="moutton" src="moutton.jpg" alt="moutton"><br>
                   <a href="moutton.html"><input type="button" name="View" value="Order Now" >
           </div>
           <div class="box1">
-                  <h2>MOUTTON TIKKA</h2>
+                  <h2>MOUTTON KABBAB</h2>
                   <img  id="state" src="state.jpeg" alt="state"><br>
                   <a href="state.html"><input type="button" name="View" value="Order Now" >
           </div>
           <div class="box1">
-                  <h1>MOUTTON TIKKA</h1>
+                  <h1>MOUTTON HAKKA</h1>
                   <img  id="others" src="others.jpg" alt="others"><br>
                   <a href="#"><input type="button" name="View" value="Order Now" >
           </div>

@@ -27,22 +27,22 @@
      <h1 id="heading">OTHERS</h1>
      <div class="container">
           <div class="box1">
-                  <h1>OTHERS</h1>
+                  <h1>SINDHI BIRYANI</h1>
                   <img  id="chicken" src="chicken.jpg" alt="chicken"><br>
                   <a href="chicken.html"><input type="button" name="View" value="Order Now" >
           </div>
           <div class="box1">
-                  <h1>OTHERS</h1>
+                  <h1>MALABAR BIRYANI</h1>
                   <img  id="moutton" src="moutton.jpg" alt="moutton"><br>
                   <a href="moutton.html"><input type="button" name="View" value="Order Now" >
           </div>
           <div class="box1">
-                  <h2>OTHERS</h2>
+                  <h2>AMBUR BIRYANI</h2>
                   <img  id="state" src="state.jpeg" alt="state"><br>
                   <a href="#"><input type="button" name="View" value="Order Now" >
           </div>
           <div class="box1">
-                  <h1>OTHERS</h1>
+                  <h1>BHATKALI BIRYANI</h1>
                   <img  id="others" src="others.jpg" alt="others"><br>
                   <a href="#"><input type="button" name="View" value="Order Now" >
           </div>

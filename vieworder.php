@@ -14,7 +14,7 @@
     
         $qu="";
         $result = mysqli_query($conn,$qu);
-        $num = mysqli_num_rows($result0);     
+        $num = mysqli_num_rows($result);     
     ?>
 
  	<div class="header">
@@ -34,30 +34,23 @@
             <table>
                 <tr>
                     <th>Order no</th> 
-                    <th>Area</th> 
                     <th>order name</th>  
-                    <th>others</th> 
-                    <th>ID</th>
-                    <th>Location</th> 
-                    <th>Date</th> 
-                    <th>Resolved</th>
+                    <th>user details</th> 
                 </tr>
                 <?php 
                 for($i=0;$i<$num;$i++)
                 {
-                     $row = mysqli_fetch_array($result0);
+                     $row = mysqli_fetch_array($result);
                 ?>
                 <tr>
                    <td><?php echo $row['Order_number']; ?></td>
-                   <td><?php echo $row['area']; ?></td>
                    <td><?php echo $row['Order_name']; ?></td>
-                   <td><?php echo $row['Others']; ?></td>
-                   <td><?php echo $row['id']; ?></td>
-                   <td><?php echo $row['address']; ?></td>                
-                   <td><?php echo $row['Date']; ?></td>                
-                   <td> <input type="checkbox" name="<?php echo $row['complaint_number']; ?>" onclick=resolved(this.name)> </td>
+                   <td><?php echo $row['user details']; ?></td>
                 </tr>
-        
+        <?php
+        	}
+        ?>
+
             </table>
        </div>
       </section>
