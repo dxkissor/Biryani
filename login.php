@@ -12,7 +12,7 @@
 	<div class="login">
 	<form  action="loginbackend2.php" method="post">
 		<h1  style="font-style: italic;">LOGIN</h1>
-			name:  <input type="text" name="email"><br>
+			name:  <input type="text" name="username"><br>
 			password:<input type="password" name="password" maxlength="16"><br>
 			<input type="Submit" name="submit" value="login"><br>
 	</form>

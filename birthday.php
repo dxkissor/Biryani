@@ -30,8 +30,8 @@
         <input type="text" name="name" placeholder="name">
         <input type="text" name="mobileno"  placeholder="mobile no">
         <input type="text" name="alternateno" placeholder="alternate no">
-        <input type="date" name="DOB" placeholder="DOB">
-        <input type="date" name="aniversarydate" placeholder="aniversary date">
+        <input class="date" type="date" name="DOB" placeholder="DOB">
+        <input class="date" type="date" name="aniversarydate" placeholder="aniversary date">
         <input type="text" name="address" placeholder="address">
         <input type="text" name="state" placeholder="state">
         <input type="text" name="city" placeholder="City">
