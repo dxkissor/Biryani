@@ -1,4 +1,4 @@
-payment.php<!DOCTYPE html>
+<!DOCTYPE html>
  <html>
  <head>
  	<title>Biryaniwale</title>
@@ -13,7 +13,6 @@ payment.php<!DOCTYPE html>
   			<ul>
   				
   				<li><a href="#">Offers</a></li>
-  				<li><a href="#">Stores</a></li>
   				<li><a href="#">Contacts</a></li>
   				<li><a href="#">About Us</a></li>
   				<li class="active"><a href="#">Download App</a></li>

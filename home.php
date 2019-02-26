@@ -17,9 +17,8 @@
   			<ul>
   				<li><a href="menu.php"> Menu</a></li>
   				<li><a href="#">Offers</a></li>
-  				<li><a href="#">Stores</a></li>
   				<li><a href="#">Contacts</a></li>
-  				<li><a href="#">About Us</a></li>
+  				<li><a href="Aboutus.php">About Us</a></li>
   				<li class="active"><a href="#">Download App</a></li>
   			</ul>
   		</nav>
@@ -36,19 +35,16 @@
 <div class="ism-slider" data-image_fx="zoomrotate" id="my-slider">
   <ol>
     <li>
-      <img src="ism/image/slides/_u/1544382357952_650213.png">
+      <img src="ism/image/slides/_u/amazon.png">
     </li>
     <li>
-      <img src="ism/image/slides/_u/1544382355682_418783.jpg">
+      <img src="ism/image/slides/_u/paypal.jpg">
     </li>
     <li>
-      <img src="ism/image/slides/_u/1544382347612_42183.png">
+      <img src="ism/image/slides/_u/paytm.png">
     </li>
     <li>
-      <img src="ism/image/slides/_u/1544382344275_785313.png">
-    </li>
-    <li><i class="fas fa-search"></i> 
-      <img src="ism/image/slides/_u/1544382343966_681644.jpg">
+      <img src="ism/image/slides/_u/phonepe.png">
     </li>
   </ol>
 </div>

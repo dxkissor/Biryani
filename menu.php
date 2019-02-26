@@ -13,7 +13,6 @@
   			<ul>
   				
   				<li><a href="#">Offers</a></li>
-  				<li><a href="#">Stores</a></li>
   				<li><a href="#">Contacts</a></li>
   				<li><a href="#">About Us</a></li>
   				<li class="active"><a href="#">Download App</a></li>
