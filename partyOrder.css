@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+
+.adminHeader{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items:end;
+    grid-column-gap: 2em; 
+}
+
+.adminHeader div h1{
+    color:blue;
+    font-family: 'Lora', serif;
+}
+
+.adminOptions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#opt1,#opt2,#opt3,#opt4{
+   background-color: #1abc9c;
+   color:#fff;
+   padding: 0px 20px;
+   font-family: 'Lora', serif;
+   cursor: pointer;
+}
+#opt1:hover,#opt2:hover,#opt3:hover{
+    padding: 0px 19px;
+    transition: 0.2s ease;
+}
+
+#filterDiv{
+    background-color: rgba(72, 73, 72, 0.9);
+    height: 50vh;
+    width:30%;
+    right:0;
+    margin-top: 0.3%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: absolute;
+    border-radius: 1%;
+    z-index: 2;
+}
+#filterDiv h2{
+    color:#F0DF87;
+}
+#filterDiv label{
+    color: #dcdde1;
+    font-size: 22px;
+    font-style: italic;
+    font-family: Helvetica,Arial, sans-serif
+}
+#filterDiv select{
+    background-color: transparent;
+    font-size: 18px;
+    width: 50%;
+    border-bottom:1px solid #fff;
+    border-top:1px solid #fff;
+}
+#filterDiv select option, #filterDiv select option:first-child{
+    font-family: 'Courier New', Courier, monospace;
+}
+#filterDiv input[type="text"]{
+    background-color:transparent;
+    width: 70%;
+    font-size: 18px;
+    border:1px solid #fff;
+    height: 6vh;
+}
+#filterDiv input[type="submit"]{
+    background-color:transparent;
+    font-size: 18px;
+    border:1px solid #fff;
+    height: 6vh;
+    color: #fff;
+    padding: 0 2%;
+    cursor: pointer;
+}
+#filterDiv input[type="submit"]:hover{
+    transform: translateY(-2px);
+    border:1px solid rgb(82, 230, 62);
+    transition: 0.5s ease;
+}
+#filterDiv ::placeholder{
+    font-size: 3vh;
+    color:#fff;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-left: 2%;
+}
+.dataTable table{
+    width: 100%;
+}
+.dataTable table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #F8EFBA;
+}
+th{
+    background-color:lightgray;
+}
+
+#filterBox{
+    min-width: 50%;
+    height: 20vh;
+    background-color: #55E6C1;
+}
+
+#logout{
+    height:5vh; 
+    width:100px; 
+    background-color:#6ab04c;
+    font-weight: 800;
+    border:1px solid #F8EFBA;
+    cursor: pointer;
+    border-radius: 5%;
+    font-family: 'Lora', serif;
+}

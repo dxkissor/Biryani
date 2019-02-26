@@ -13,8 +13,8 @@
   			<ul>
   				
   				<li><a href="#">Offers</a></li>
-  				<li><a href="#">Contacts</a></li>
-  				<li><a href="#">About Us</a></li>
+  				<li><a href="contact.php">Contacts</a></li>
+  				<li><a href="about.php">About Us</a></li>
   				<li class="active"><a href="#">Download App</a></li>
   			</ul>
   		</nav>

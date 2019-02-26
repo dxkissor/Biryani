@@ -26,7 +26,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
 }
-#opt1,#opt2,#opt3,#opt4{
+#opt1,#opt2{
 	border:3px solid lightgray;
    background-color:red;
    color:gold;
@@ -39,12 +39,12 @@
 	width:100%;
 }
 
-.Table table th td
+.Table table,th,td
 {
-	border:2px solid gray;
+	border:2px solid black;
 	text-align:center;
 	border-collapse: collapse;
-	background-color:gold;
+	background-color:white;
 }
 th
 {

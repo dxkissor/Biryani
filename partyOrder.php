@@ -12,7 +12,7 @@
         $conn = mysqli_connect('localhost','biryani','biryani');
         mysqli_select_db($conn,'biryani');
     
-        $qu="select * from orders";
+        $qu="select * from party";
         $result = mysqli_query($conn,$qu);
         $num = mysqli_num_rows($result);     
     ?>
@@ -32,9 +32,15 @@
         <div class="Table">
             <table>
                 <tr>
-                    <th>Order no</th> 
-                    <th>order name</th>  
-                    <th>address</th> 
+                    <th>Name</th> 
+                    <th>Mob_no</th>
+                    <th>alt_no</th>
+                    <th>DOB</th> 
+                    <th>aniversarydate</th>
+                    <th>address</th>
+                    <th>state</th>
+                    <th>city</th>
+                    <th>pin code</th>
                 </tr>
                 <?php 
                 for($i=0;$i<$num;$i++)
@@ -42,9 +48,15 @@
                      $row = mysqli_fetch_array($result);
                 ?>
                 <tr>
-                   <td><?php echo $row['order_id']; ?></td>
-                   <td><?php echo $row['order_name']; ?></td>
-                   <td><?php echo $row['order_address']; ?></td>
+                   <td><?php echo $row['name']; ?></td>
+                   <td><?php echo $row['mob_no']; ?></td>
+                   <td><?php echo $row['alt_no']; ?></td>
+                   <td><?php echo $row['DOB']; ?></td>
+                   <td><?php echo $row['aniversarydate']; ?></td>
+                   <td><?php echo $row['address']; ?></td>
+                   <td><?php echo $row['state']; ?></td>
+                   <td><?php echo $row['city']; ?></td>
+                   <td><?php echo $row['pincode']; ?></td>
                 </tr>
         <?php
         	}

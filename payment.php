@@ -50,10 +50,10 @@
 	<div class="login">
 	<form  action="insertorder.php" method="post">
 		<h1  style="font-style: italic;">PAYMENT</h1>
-			name:  <input type="text" name="username"><br>
-			card no:<input type="text" name="password" maxlength="16"><br>
-			date: <input type="date" name="date">
-			CVV no:   <input type="text" name="email"><br>
+			name:  <input type="text" name="username" required><br>
+			card no:<input type="text" name="password" maxlength="16" required><br>
+			date: <input type="date" name="date" required>
+			CVV no:   <input type="text" name="email" required><br>
 	<input type="Submit" name="submit" value="pay now"><br>
 	</form>
 	</div>

@@ -1,29 +1,34 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
  <html>
  <head>
  	<title>Biryaniwale</title>
- 	<link rel="stylesheet" type="text/css" href="aboutus.css">
+ 	<link rel="stylesheet" type="text/css" href="about.css">
  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
  	<link rel="stylesheet" href="ism/css/my-slider.css"/>
 	<script src="ism/js/ism-2.2.min.js"></script>
 
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+
  </head>
  <body>
   	<header>
-  		<img src="logo.png" alt="Biryaniwale" title="Biryaniwale">
+  	<a href="home.php"><img src="logo.png" alt="Biryaniwale" title="Biryaniwale" ></a>
   		<nav>
   			<ul>
-  				<li><a href="menu.html">Menu</a></li>
+  				<li><a href="menu.php"> Menu</a></li>
   				<li><a href="#">Offers</a></li>
   				<li><a href="#">Contacts</a></li>
+  				<li><a href="Aboutus.php">About Us</a></li>
   				<li class="active"><a href="#">Download App</a></li>
   			</ul>
   		</nav>
-    </header>
   	
-
-    <div class="box1"><center><h1><i>Our mission is to deliver you your love, The Biryani.</i></h1></center> </div>
-    <div class="box2">
+  	</header>
+  	<div class="banner">
+  		<center><h1 id="t1"><i>Our mission is to deliver you your love, The Biryani.</i></h1></center>
+      <img  id="photo" src="Biryani-1.jpg" alt="biryani">	
+ 	 </div>
+   <div class="box2">
           <h1><center><i>We do this by </i></center></h1>
           <h2><center>Helping people discover great places around them.</center></h2>
             <center><p>Our team gathers information from every restaurant on a regular basis to ensure our data is fresh. Our vast community of food lovers share their reviews and photos, so you have all that you need to make an informed choice.</p></center>
@@ -33,8 +38,9 @@
 
             <h2><center>Enabling restaurants to create amazing experiences.</center></h2>
             <center><p>With dedicated engagement and management tools, we're enabling restaurants to spend more time focusing on food itself(especially Biryani), which translates directly to better dining experiences.</p></center>
-    </div>
-    <div class="box3">
+
+  </div>
+  <div class="box3">
       <h1><center><i>"Meet The Team"</i></h1>
                 <div class="column1">
                       <img src="charan.jpg">
@@ -58,5 +64,3 @@
     </div>
 
 </footer> 
-</body>
-</html>

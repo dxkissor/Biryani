@@ -12,13 +12,13 @@
 	<div class="login">
 	<form  action="loginbackend.php" method="post">
 		<h1  style="font-style: italic;">SIGNUP</h1>
-			name:  <input type="text" name="username"><br>
-			password:<input type="password" name="password" maxlength="16"><br>
+			name:  <input type="text" name="username" required><br>
+			password:<input type="password" name="password" maxlength="16" required><br>
 			gender:  <input type="radio" name="gender" value="M"> male
 					 <input type="radio" name="gender" value="F"> female<br>
-			email:   <input type="text" name="email"><br>
-			phoneno: <input type="phone" name="phoneno"><br>
-			Address: <input  id="address" type="text" name="address">
+			email:   <input type="text" name="email" required><br>
+			phoneno: <input type="phone" name="phoneno" required><br>
+			Address: <input  id="address" type="text" name="address" required>
 	<input type="Submit" name="submit" value="signup"><br>
 	</form>
 	</div>

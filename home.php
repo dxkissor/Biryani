@@ -17,8 +17,8 @@
   			<ul>
   				<li><a href="menu.php"> Menu</a></li>
   				<li><a href="#">Offers</a></li>
-  				<li><a href="#">Contacts</a></li>
-  				<li><a href="Aboutus.php">About Us</a></li>
+  				<li><a href="contact.php">Contacts</a></li>
+  				<li><a href="About.php">About Us</a></li>
   				<li class="active"><a href="#">Download App</a></li>
   			</ul>
   		</nav>
@@ -54,28 +54,25 @@
 	<div class="container">
 		<div class="box1">
 			<div class="icon">
-				<i class="fas fa-search"></i> 
+				<a href="menu.php"><i class="fas fa-concierge-bell"></i></a> 
 			</div>
 			<div class="content">
-				<h1>Search</h1>
-				<p>rtyuiokjhgfxcvbniufrtyuikjhgfcv</p>
+				<a href="menu.php"><h1>Menu</h1></a>
 			</div>
 		</div>
 		<div class="box1">
 			<div class="icon">
-				<a href="birthday.php"><i class="fas fa-birthday-cake"></i></a>
+				<a href="birthday.php"><i class="fas fa-glass-cheers"></i></a>
 			</div>
 			<div class="content">
-				<h1>Birthday</h1>
-				<p>rtyuiokjhgfxcvbniufrtyuikjhgfcv</p>
+				<a href="menu.php"><h1>Party</h1></a>
 			</div>
 		</div><div class="box1">
 			<div class="icon">
-				<i class="fas fa-store"></i> 
+				<a href="about.php"><i class="fas fa-user-friends"></i></a> 
 			</div>
 			<div class="content">
-				<h1>Nearby Stores</h1>
-				<p>rtyuiokjhgfxcvbniufrtyuikjhgfcv</p>
+				<a href="menu.php"><h1>About us</h1></a>
 			</div>
 		</div>
 	</div>	
